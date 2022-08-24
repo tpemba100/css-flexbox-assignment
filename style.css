@@ -11,8 +11,8 @@
 .box {
   width: 250px;
   height: 100%;
-  /* background-color: gray; */
-  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -32,6 +32,7 @@
 .heading {
   display: flex;
   height: 40px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -83,13 +84,6 @@
   padding-top: 30px;
 }
 
-i {
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  /* background-color: blue; */
-}
-
 .f1 {
   color: blue;
 }
@@ -98,13 +92,6 @@ i {
 }
 .f3 {
   color: green;
-}
-
-img {
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  /* background-color: blue; */
 }
 
 h4 {
